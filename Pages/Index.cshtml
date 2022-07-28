@@ -1,0 +1,12 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hello World!</h1>
+    <h2><b>Env:</b> @Model.Env</h2>
+    <h2><b>API Uri:</b> @Model.APIUri</h2>
+    <h3><b>Timestamp:</b> @DateTime.Now.ToString()</h3>
+</div>
